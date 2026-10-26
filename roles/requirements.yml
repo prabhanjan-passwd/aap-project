@@ -1,0 +1,5 @@
+---
+- name: demo_role
+  src: git@github.com:prabhanjan-passwd/demo-role.git
+  scm: git
+  version: develop

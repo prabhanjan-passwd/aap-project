@@ -1,0 +1,8 @@
+---
+- name: Test external Git role synchronization
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  roles:
+    - demo_role
